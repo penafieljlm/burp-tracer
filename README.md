@@ -3,6 +3,8 @@ This is a simple extension for Burp Suite which takes your current site map, ext
 
 The tool respects the scope that you indicated in the "Scope" tab of the "Target" module.
 
+![Alt text](/docs/screenshot.png?raw=true)
+
 ## Installation
 0. Clone this repository somewhere or download `tracer.py`
 1. Download Jython (http://www.jython.org/downloads.html) and install it anywhere you like.
@@ -12,7 +14,6 @@ The tool respects the scope that you indicated in the "Scope" tab of the "Target
 5. In the Extension Type dropdown, select Python
 6. In the Extension File field, select the `tracer.py` file that you acquired earlier
 7. A new Tracer tab should pop up in Burp Suite
-8. You done boi. Have fun.
 
 ## Usage
 It's simple. Just click "Start" and wait for it to complete.
