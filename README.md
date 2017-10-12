@@ -43,3 +43,7 @@ However, by reading the description of the Reflected Parameters extension...
 ...I can say that the main difference between this tool and Reflected Parameters is that **the parameter values in Reflected Parameters are searched for in the corresponding response of the request that issued the parameter rather than the entire site map**.
 
 **Tracer searches the entire site map**. So, say for example, you registered an account for a website. You issued the `username` parameter to the `/register.php` endpoint. Reflected Parameters would light up if the corresponding response to the `POST` to `/register.php` contains the `username` you entered. Tracer, on the other hand, would light up even if the corresponding response to `/register.php` doesn't contain the `username` you entered **as long as it pops up elsewhere in the site**.
+
+### How is this different from simply searching for parameter values using Ctrl+F?
+
+Well, one, you're not going to have to manually sift through all parameter values present on your site map and do a search for each and every one of them. **This tool hunts down those parameter values for you and does the searching for you at the same time**.
